@@ -1,0 +1,25 @@
+{
+  "name": "tailwind-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"tailwindcss -i input.css -o tailwind.css -w\" \"live-server .\"",
+    "build": "tailwindcss -i input.css -o tailwind.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.3.0",
+    "live-server": "^1.2.1",
+    "tailwindcss": "^3.1.2"
+  },
+  "prettier": {
+    "printWidth": 120
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "prettier-plugin-tailwindcss": "^0.1.7"
+  }
+}
